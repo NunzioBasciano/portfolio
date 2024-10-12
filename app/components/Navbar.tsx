@@ -1,19 +1,12 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation"; // Usa il nuovo hook usePathname
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-
-const menuLink = [
-  { href: "/about-me", label: "About me" },
-  { href: "/my-work", label: "My Work" },
-  { href: "/skills", label: "Skills" },
-  { href: "/contact", label: "Contact" },
-  { href: "/resume", label: "Resume" },
-];
+import MenuLink from "./MenuLink";
 
 const Navbar = () => {
-  const pathname = usePathname(); // Recupera il path corrente
+  const pathname = usePathname();
   const [path, setPath] = useState("");
 
   useEffect(() => {
@@ -39,24 +32,10 @@ const Navbar = () => {
         </div>
         {/* LINK A FORM SECTION */}
         <Link href={"/"}>
-          <h3 className="hidden md:block">nunzio.basciano1988@gmail.com</h3>
+          <h3 className="hidden lg:block">nunzio.basciano1988@gmail.com</h3>
         </Link>
       </div>
-      <ul className="flex gap-4 text-white">
-        {menuLink.map((item) => (
-          <li key={item.label}>
-            <Link href={item.href} className="inline-block">
-              <span
-                className={`font-['Montserrat'] inline-block transition-transform duration-200 ease-in-out transform hover:scale-110 ${
-                  path === item.href ? "text-yellow-500" : ""
-                }`}
-              >
-                {item.label}
-              </span>
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <MenuLink path={path} />
     </nav>
   );
 };

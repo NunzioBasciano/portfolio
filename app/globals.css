@@ -20,9 +20,9 @@ body {
   background-color: var(--darkBlue);
 }
 
-h1, h2, h3 {
+h1, h2, h3, li {
   font-family: 'Montserrat', sans-serif;
-  color: var(--orange);
+  color: white;
 }
 
 p, a {

@@ -3,7 +3,7 @@ import { menuLink } from "../common/menuLink";
 
 interface IMenuLink {
   path?: string;
-  highlight: boolean;
+  highlight?: boolean;
   isFooter?: boolean;
 }
 

@@ -4,10 +4,10 @@ export default function Home() {
   return (
     <div className="py-3 md:flex md:gap-3 md:justify-between">
       <div className="p-3 flex flex-col gap-3 w-full sm:h-full">
-        <h1 className="text-white text-3xl my-3 font-semibold">
+        <h1 className="text-white text-2xl my-3 font-semibold">
           Nunzio basciano
         </h1>
-        <h2 className="text-2xl mb-2 text-[var(--orange)]">
+        <h2 className="text-3xl mb-2 text-[var(--orange)]">
           Sviluppatore Frontend
         </h2>
         <p className="tracking-wide">

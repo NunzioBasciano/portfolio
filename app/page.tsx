@@ -1,4 +1,5 @@
 import Button from "./components/Button";
+import Carousel from "./components/Carousel";
 
 export default function Home() {
   return (
@@ -44,7 +45,7 @@ export default function Home() {
           <Button link="/contact" label="Contatti" />
         </div>
       </div>
-      <div className="bg-red-300 w-full"></div>
+      <Carousel />
     </div>
   );
 }

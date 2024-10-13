@@ -3,7 +3,7 @@ import Button from "./components/Button";
 export default function Home() {
   return (
     <div className="py-3 md:flex md:gap-3 md:justify-between">
-      <div className="p-3 flex flex-col gap-3 w-full sm:h-full">
+      <div className="py-4 px-6 flex flex-col gap-3 w-full sm:h-full shadow-[0_1px_2px_0_rgba(60,64,67,0.3),_0_2px_6px_2px_rgba(60,64,67,0.15)] rounded-2xl">
         <h1 className="text-white text-2xl my-3 font-semibold">
           Nunzio basciano
         </h1>

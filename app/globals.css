@@ -63,3 +63,22 @@ small {
     margin: 0;
   }
 }
+
+/* In styles/global.css o il file CSS appropriato */
+.custom-scrollbar::-webkit-scrollbar {
+ padding: 1rem; /* Altezza della scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--blue); /* Colore del "pollice" (parte che si muove) */
+  border-radius: 10px; /* Angoli arrotondati */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: var(--lightBlue); /* Colore quando il pollice è in hover */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: var(--darkBlue); /* Colore dello sfondo della scrollbar */
+  border-radius: 10px; /* Angoli arrotondati */
+}

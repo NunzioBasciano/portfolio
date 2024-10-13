@@ -40,7 +40,7 @@ export default function Home() {
         </p>
         <div className="flex gap-3">
           <Button downloadCV={true} label="Scarica CV" />
-          <Button link="/my-project" label="I miei progetti" />
+          <Button link="/my-project" label="Progetti" />
           <Button link="/contact" label="Contatti" />
         </div>
       </div>

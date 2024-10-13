@@ -24,21 +24,17 @@
   background: linear-gradient(180deg, #0d1419 0%, #010204 100%);
   background-repeat: no-repeat;
   min-height: 100vh;
-
 }
 
 h1, h2, h3, li {
   font-family: 'Montserrat', sans-serif;
   color: white;
-  list-style: none;
 }
 
 a {
   font-family: 'Montserrat', sans-serif;
   color: white;
-  text-decoration: none;
   font-weight: 300;
-
 }
 
 p{
@@ -46,7 +42,15 @@ p{
   color: white;
   line-height: 1.3rem;
   font-weight: 300;
-  font-size: 14px;
-  
+  font-size: 14px;  
 }
 
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+small {
+  font-family: 'Montserrat', sans-serif;
+
+}

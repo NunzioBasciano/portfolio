@@ -34,7 +34,7 @@ const Navbar = () => {
           </p>
         </Link>
       </div>
-      <MenuLink path={path} />
+      <MenuLink highlight={true} path={path} />
       <Hamburger switchMenu={openMenu} />
       {/*   <HamburgerMenu isOpen={isOpen} /> */}
     </nav>

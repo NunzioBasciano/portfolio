@@ -1,7 +1,7 @@
 import React from "react";
 
 const cardList = [
-  { title: "title 1", href: "https://via.placeholder.com/300" },
+  { title: "Sicily Pulse", href: "/SicilyPulse.jpg" },
   { title: "title 2", href: "https://via.placeholder.com/300" },
   { title: "title 3", href: "https://via.placeholder.com/300" },
   { title: "title 4", href: "https://via.placeholder.com/300" },

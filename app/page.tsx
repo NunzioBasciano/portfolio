@@ -13,9 +13,6 @@ export default function Home() {
           molestias deleniti corporis modi dolorum quidem cum maiores
           repudiandae tempore sit illo.
         </p>
-        <div className="m-5 text-white transform transition-transform duration-300 ease hover:scale-200">
-          Pippo
-        </div>
         <button className="transition-transform duration-300 transform scale-100 hover:scale-110  mt-1 bg-[#0D1419] bg-gradient-to-r from-[var(--blue)] to-[var(--darkBlue)] text-white w-fit py-1 px-5 rounded-2xl">
           ciao
         </button>

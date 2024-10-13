@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav className="p-3 flex items-center justify-between ">
       {/* CONTAINER IMAGE/MAIL */}
       <div className="flex items-center gap-4">
-        <div className="w-[50px] h-[50px] relative overflow-hidden">
+        <div className="w-[70px] h-[60px] relative overflow-hidden">
           <Image src="/logo.png" alt="Foto di Nunzio Basciano" layout="fill" />
         </div>
         {/* LINK A FORM SECTION */}

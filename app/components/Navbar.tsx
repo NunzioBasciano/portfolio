@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import MenuLink from "./MenuLink";
 import Hamburger from "./Hamburger";
-import HamburgerMenu from "./HamburgerMenu";
+/* import HamburgerMenu from "./HamburgerMenu"; */
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -14,6 +14,7 @@ const Navbar = () => {
 
   const openMenu = () => {
     setIsOpen((prevIsOpen) => !prevIsOpen); // Toggle the menu state
+    console.log(isOpen);
   };
 
   useEffect(() => {

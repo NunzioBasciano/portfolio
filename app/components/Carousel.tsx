@@ -1,7 +1,7 @@
 import React from "react";
 
 const cardList = [
-  { title: "title 1", href: "https://via.placeholder.com/300" },
+  { title: "Sicily Pulse", href: "/SicilyPulse.jpg" },
   { title: "title 2", href: "https://via.placeholder.com/300" },
   { title: "title 3", href: "https://via.placeholder.com/300" },
   { title: "title 4", href: "https://via.placeholder.com/300" },
@@ -11,7 +11,7 @@ const cardList = [
 
 function Carousel() {
   return (
-    <div className="p-3 flex overflow-x-auto scroll-smooth snap-x snap-mandatory w-full min-h-[full] rounded-2xl shadow-[0_1px_2px_0_rgba(60,64,67,0.3),_0_2px_6px_2px_rgba(60,64,67,0.15)] custom-scrollbar">
+    <div className="max-md:mt-3 flex overflow-x-auto scroll-smooth snap-x snap-mandatory w-full min-h-[full] rounded-2xl shadow-[0_1px_2px_0_rgba(60,64,67,0.3),_0_2px_6px_2px_rgba(60,64,67,0.15)] custom-scrollbar">
       {cardList.map((item, index) => (
         <div
           key={index}

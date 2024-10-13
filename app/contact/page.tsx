@@ -150,8 +150,8 @@ function ContactForm() {
       </div>
       <div className=" p-3 flex flex-col gap-3 w-full sm:h-full">
         <h3 className="text-xl my-1 ">
-          Completa il form e clicca su 'Invia' per essere ricontattato
-          rapidamente.
+          Completa il form e clicca su <strong>Invia</strong> per essere
+          ricontattato rapidamente.
         </h3>
         <p>Puoi anche contattarmi direttamente tramite:</p>
         <ul className="pl-5">
@@ -160,7 +160,7 @@ function ContactForm() {
               <a
                 href={item.href}
                 target="_blank"
-                className="flex items-center gap-3 text-[var(--orange)] transform transition-transform duration-300 ease-in-out hover:scale-110"
+                className="flex items-center gap-3 text-[var(--orange)] transform transition-transform duration-300 ease-in-out hover:scale-105"
               >
                 <Image
                   src={item.imageSrc}

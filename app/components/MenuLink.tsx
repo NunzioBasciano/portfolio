@@ -4,13 +4,12 @@ import { menuLink } from "../common/menuLink";
 interface IMenuLink {
   path?: string;
   highlight: boolean;
+  isFooter?: boolean;
 }
 
-function MenuLink(props: IMenuLink) {
-  const { path, highlight = false } = props;
-
+function MenuLink({ path, highlight = false, isFooter = false }: IMenuLink) {
   return (
-    <ul className="hidden md:flex gap-4 text-white">
+    <ul className={`gap-4 text-white ${!isFooter ? "hidden md:flex" : "flex"}`}>
       {menuLink.map((item) => (
         <li key={item.label}>
           <Link href={item.href}>
@@ -21,7 +20,7 @@ function MenuLink(props: IMenuLink) {
                 path === item.href && highlight
                   ? "text-[var(--orange)] font-semibold"
                   : ""
-              }`} // Condizione per il colore
+              }`}
             >
               {item.label}
             </div>

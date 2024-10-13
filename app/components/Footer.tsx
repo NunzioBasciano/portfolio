@@ -17,7 +17,7 @@ function Footer() {
       <div className="w-[70px] h-[60px] m-6 relative overflow-hidden ">
         <Image src="/logo.png" alt="Foto di Nunzio Basciano" layout="fill" />
       </div>
-      <MenuLink path={path} />
+      <MenuLink highlight={false} isFooter={true} path={path} />
       <small className="m-6 text-[var(--orange)]">
         © 2024 All Rights Reserved by ThemeJunction
       </small>

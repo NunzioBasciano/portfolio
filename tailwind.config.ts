@@ -8,12 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      scale: {
+        '120': '1.20', // Definizione della scala personalizzata
       },
+    },
+  },
+  variants: {
+    extend: {
+      scale: ['hover'], // Abilitare la variante hover per scale
     },
   },
   plugins: [],
 };
+
 export default config;

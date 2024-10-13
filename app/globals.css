@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --black: #0d1419;
+  --darkBlue: #0d1419;
+  --blue: hwb(209 17% 67%);
+  --lightBlue: #476c8d;
+  --orange: #cfad56;  
+}
 
 * {
   box-sizing: border-box;
@@ -10,11 +19,38 @@
   padding: 0;
 }
 
-h1, h2, h3 {
+ body {
+  background: rgb(13,20,25);
+  background: linear-gradient(180deg, #0d1419 0%, #010204 100%);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+h1, h2, h3, li {
   font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 
-p, a {
-  font-family: 'Roboto', sans-serif;
+a {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: 300;
 }
 
+p{
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+  line-height: 1.3rem;
+  font-weight: 300;
+  font-size: 14px;  
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+small {
+  font-family: 'Montserrat', sans-serif;
+
+}

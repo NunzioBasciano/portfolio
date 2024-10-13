@@ -5,6 +5,8 @@ import { toast, ToastContainer } from "react-toastify";
 import InputBox from "../components/InputBox";
 import "react-toastify/dist/ReactToastify.css";
 import Button from "../components/Button";
+import { socialLink } from "../common/socialLink";
+import Image from "next/image";
 
 function ContactForm() {
   const [formData, setFormData] = useState({
@@ -146,7 +148,32 @@ function ContactForm() {
           </form>
         </div>
       </div>
-      <div className="bg-red-300 w-full"></div>
+      <div className=" p-3 flex flex-col gap-3 w-full sm:h-full">
+        <h3 className="text-xl my-1 ">
+          Completa il form e clicca su <strong>Invia</strong> per essere
+          ricontattato rapidamente.
+        </h3>
+        <p>Puoi anche contattarmi direttamente tramite:</p>
+        <ul className="pl-5">
+          {socialLink.map((item, index) => (
+            <li className="mb-3" key={index}>
+              <a
+                href={item.href}
+                target="_blank"
+                className="flex items-center gap-3 text-[var(--orange)] transform transition-transform duration-300 ease-in-out hover:scale-105"
+              >
+                <Image
+                  src={item.imageSrc}
+                  alt={item.label}
+                  width={30}
+                  height={30}
+                />{" "}
+                {item.label} {item.link}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }

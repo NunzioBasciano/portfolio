@@ -8,7 +8,7 @@
 :root {
   --black: #0d1419;
   --darkBlue: #0d1419;
-  --blue: hwb(209 17% 67%);
+  --blue: #2b4054;
   --lightBlue: #476c8d;
   --orange: #cfad56;  
 }
@@ -35,6 +35,7 @@ a {
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-weight: 300;
+  
 }
 
 p{

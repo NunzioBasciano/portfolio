@@ -39,9 +39,9 @@ export default function Home() {
           spirito di squadra.
         </p>
         <div className="flex gap-3">
-          <Button label="Download CV" />
-          <Button label="My Project" />
-          <Button label="Contact" />
+          <Button downloadCV={true} label="Scarica CV" />
+          <Button link="/my-project" label="I miei progetti" />
+          <Button link="/contact" label="Contatti" />
         </div>
       </div>
       <div className="bg-red-300 w-full"></div>

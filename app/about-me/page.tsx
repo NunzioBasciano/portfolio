@@ -32,21 +32,22 @@ function AboutMe() {
             <strong>interfacce utente intuitive</strong> e{" "}
             <strong>performanti</strong>. Appassionato di{" "}
             <strong>tecnologia</strong> e <strong>design</strong>, mi concentro
-            su <strong>esperienze utente (UX)</strong> fluide, con un'attenzione
-            ai dettagli. Affronto ogni progetto con spirito{" "}
+            su <strong>esperienze utente (UX)</strong> fluide, con
+            un&aposattenzione ai dettagli. Affronto ogni progetto con spirito{" "}
             <strong>proattivo</strong> e desiderio di apprendere nuove
             tecnologie.
           </p>
           <p>
-            Considero il <strong>problem-solving</strong> un'opportunità per
+            Considero il <strong>problem-solving</strong> un&aposopportunità per
             innovare. Ho lavorato in <strong>team dinamici</strong>, dove la{" "}
             <strong>comunicazione efficace</strong> è fondamentale per il
             successo.
           </p>
           <p>
             La mia <strong>adattabilità</strong> a nuovi ambienti mi consente di
-            gestire <strong>progetti complessi</strong>. Mantengo un'attenzione
-            elevata ai dettagli, curando ogni fase dello sviluppo, dall'
+            gestire <strong>progetti complessi</strong>. Mantengo
+            un&aposattenzione elevata ai dettagli, curando ogni fase dello
+            sviluppo, dall&apos
             <strong>ottimizzazione SEO</strong> alla{" "}
             <strong>user experience</strong>, per garantire{" "}
             <strong>soluzioni scalabili</strong> e <strong>performanti</strong>.
@@ -60,8 +61,8 @@ function AboutMe() {
           <p>
             Grazie alla mia <strong>gestione del tempo</strong> e{" "}
             <strong>flessibilità</strong>, riesco a rispettare le scadenze senza
-            compromettere la qualità. Questi elementi, uniti all'attenzione alle{" "}
-            <strong>migliori pratiche di sviluppo web</strong> e{" "}
+            compromettere la qualità. Questi elementi, uniti all&aposattenzione
+            alle <strong>migliori pratiche di sviluppo web</strong> e{" "}
             <strong>SEO</strong>, mi permettono di creare{" "}
             <strong>soluzioni web efficaci</strong>.
           </p>

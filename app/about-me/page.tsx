@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { cardList } from "../common/cardList";
+import Button from "../components/Button";
 
 function AboutMe() {
   return (
@@ -71,11 +72,11 @@ function AboutMe() {
           Skill-set
         </h2>
         <div>
-          <div className="flex justify-around flex-wrap gap-3 mx-auto">
+          <div className="flex justify-center flex-wrap mx-auto gap-3">
             {cardList.map((item, index) => (
               <div
                 key={index}
-                className="p-6 shadow-[0_1px_2px_0_rgba(60,64,67,0.3),_0_2px_6px_2px_rgba(60,64,67,0.15)] rounded-2xl w-full md:w-1/3 lg:w-1/4"
+                className="p-6 shadow-[0_1px_2px_0_rgba(60,64,67,0.3),_0_2px_6px_2px_rgba(60,64,67,0.15)] rounded-2xl w-full md:w-[300px]"
               >
                 <Image
                   src={item.icon}
@@ -90,6 +91,11 @@ function AboutMe() {
                 <p>{item.description}</p>
               </div>
             ))}
+          </div>
+          <div className="flex justify-center gap-3 mt-3">
+            <Button downloadCV={true} label="Scarica CV" />
+            <Button link="/my-project" label="Progetti" />
+            <Button link="/contact" label="Contatti" />
           </div>
         </div>
       </div>

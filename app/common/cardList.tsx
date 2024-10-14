@@ -36,6 +36,42 @@ export const cardList = [
     ),
   },
   {
+    title: "Tailwind CSS",
+    icon: "/tailwind.png",
+    description: (
+      <>
+        Sono appassionato nell&apos;ottimizzare il flusso di lavoro nello
+        sviluppo front-end, sfruttando la flessibilità e la personalizzazione
+        offerte da{" "}
+        <strong className="text-white font-semibold">Tailwind CSS</strong>.
+        Anche se la mia esperienza è in crescita, mi impegno a perfezionare le
+        mie abilità per costruire design accattivanti e funzionali, migliorando
+        l&apos;esperienza utente attraverso pratiche di sviluppo moderne e
+        efficienti.
+      </>
+    ),
+  },
+  {
+    title: "GitHub",
+    icon: "/gitHub.png",
+    description: (
+      <>
+        Utilizzo <strong className="text-white font-semibold">GitHub</strong>{" "}
+        per il tracciamento delle{" "}
+        <strong className="text-white font-semibold">versioni</strong>,
+        garantendo un&apos;efficace gestione del codice sorgente e ottimizzando
+        i flussi di lavoro all&apos;interno di{" "}
+        <strong className="text-white font-semibold">team di sviluppo</strong>.
+        Sono competente nell&apos;implementazione di pratiche come il{" "}
+        <strong className="text-white font-semibold">code review </strong> e la
+        creazione di{" "}
+        <strong className="text-white font-semibold">branch</strong> strategici,
+        che migliorano la qualità del codice e accelerano il processo di
+        sviluppo.
+      </>
+    ),
+  },
+  {
     title: "JavaScript",
     icon: "/js.png",
     description: (
@@ -48,6 +84,20 @@ export const cardList = [
         sviluppo logiche funzionali che migliorano la{" "}
         <strong className="text-white font-semibold">user experience</strong> e
         garantiscono un comportamento fluido delle applicazioni.
+      </>
+    ),
+  },
+  {
+    title: "TypeScript",
+    icon: "/typescript.png", // Assicurati di avere l'icona nella cartella pubblica
+    description: (
+      <>
+        Grazie alla tipizzazione statica, riesco a catturare errori in fase di
+        compilazione e a fornire una documentazione migliore per il codice,
+        facilitando la collaborazione in team. La mia esperienza con{" "}
+        <strong className="text-white font-semibold">TypeScript</strong> mi
+        consente di costruire applicazioni più scalabili e mantenibili,
+        garantendo un flusso di lavoro più efficiente.
       </>
     ),
   },
@@ -109,23 +159,19 @@ export const cardList = [
       </>
     ),
   },
+
   {
-    title: "GitHub",
-    icon: "/gitHub.png",
+    title: "PostgreSQL",
+    icon: "/postgresql.png", // Aggiungi l&apos;icona appropriata
     description: (
       <>
-        Utilizzo <strong className="text-white font-semibold">GitHub</strong>{" "}
-        per il tracciamento delle{" "}
-        <strong className="text-white font-semibold">versioni</strong>,
-        garantendo un&apos;efficace gestione del codice sorgente e ottimizzando
-        i flussi di lavoro all&apos;interno di{" "}
-        <strong className="text-white font-semibold">team di sviluppo</strong>.
-        Sono competente nell&apos;implementazione di pratiche come il{" "}
-        <strong className="text-white font-semibold">code review </strong> e la
-        creazione di{" "}
-        <strong className="text-white font-semibold">branch</strong> strategici,
-        che migliorano la qualità del codice e accelerano il processo di
-        sviluppo.
+        Sono particolarmente interessato a esplorare le funzionalità di{" "}
+        <strong className="text-white font-semibold">PostgreSQL</strong>, come
+        la gestione delle transazioni e le query complesse, che possono
+        migliorare significativamente l&apos;efficienza dei progetti. Sebbene la
+        mia esperienza sia in fase di crescita, mi impegno a sviluppare
+        ulteriormente le mie competenze per sfruttare appieno le potenzialità di
+        questo potente sistema di gestione dei dati.
       </>
     ),
   },
@@ -143,37 +189,6 @@ export const cardList = [
         di sviluppo, mi impegno a perfezionare le mie abilità per sfruttare al
         meglio le potenzialità delle soluzioni cloud, contribuendo a progetti
         che richiedono un&apos;infrastruttura robusta e affidabile.
-      </>
-    ),
-  },
-  {
-    title: "PostgreSQL",
-    icon: "/postgresql.png", // Aggiungi l&apos;icona appropriata
-    description: (
-      <>
-        Sono particolarmente interessato a esplorare le funzionalità di{" "}
-        <strong className="text-white font-semibold">PostgreSQL</strong>, come
-        la gestione delle transazioni e le query complesse, che possono
-        migliorare significativamente l&apos;efficienza dei progetti. Sebbene la
-        mia esperienza sia in fase di crescita, mi impegno a sviluppare
-        ulteriormente le mie competenze per sfruttare appieno le potenzialità di
-        questo potente sistema di gestione dei dati.
-      </>
-    ),
-  },
-  {
-    title: "Tailwind CSS",
-    icon: "/tailwind.png",
-    description: (
-      <>
-        Sono appassionato nell&apos;ottimizzare il flusso di lavoro nello
-        sviluppo front-end, sfruttando la flessibilità e la personalizzazione
-        offerte da{" "}
-        <strong className="text-white font-semibold">Tailwind CSS</strong>.
-        Anche se la mia esperienza è in crescita, mi impegno a perfezionare le
-        mie abilità per costruire design accattivanti e funzionali, migliorando
-        l&apos;esperienza utente attraverso pratiche di sviluppo moderne e
-        efficienti.
       </>
     ),
   },

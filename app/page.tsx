@@ -12,31 +12,21 @@ export default function Home() {
           Sviluppatore Frontend
         </h2>
         <p className="tracking-wide">
-          Sono uno{" "}
-          <strong className="text-[var(--orange)]">
-            sviluppatore frontend
-          </strong>{" "}
-          con attenzione ai dettagli e passione per funzionalità fluide e
-          ottimizzate.
+          Sono uno <strong>sviluppatore frontend</strong> con attenzione ai
+          dettagli e passione per funzionalità fluide e ottimizzate.
         </p>
         <p className="tracking-wide">
-          Utilizzo{" "}
-          <strong className="text-[var(--orange)]">
-            HTML, CSS, JavaScript, ReactJS, Next.js
-          </strong>{" "}
-          per creare interfacce performanti, seguendo le migliori pratiche.
+          Utilizzo <strong>HTML, CSS, JavaScript, ReactJS, Next.js</strong> per
+          creare interfacce performanti, seguendo le migliori pratiche.
         </p>
         <p className="tracking-wide">
-          Ho esperienza nella progettazione di{" "}
-          <strong className="text-[var(--orange)]">web app</strong> ottimizzate
-          per mobile e desktop, gestione di{" "}
-          <strong className="text-[var(--orange)]">MongoDB</strong> e
-          implementazione di CRUD, filtri dinamici e paginazione.
+          Ho esperienza nella progettazione di <strong>web app</strong>{" "}
+          ottimizzate per mobile e desktop, gestione di <strong>MongoDB</strong>{" "}
+          e implementazione di CRUD, filtri dinamici e paginazione.
         </p>
         <p className="tracking-wide">
           Mi impegno costantemente a migliorare, unendo{" "}
-          <strong className="text-[var(--orange)]">problem solving</strong> e
-          spirito di squadra.
+          <strong>problem solving</strong> e spirito di squadra.
         </p>
         <div className="flex gap-3">
           <Button downloadCV={true} label="Scarica CV" />

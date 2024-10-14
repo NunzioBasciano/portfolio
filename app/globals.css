@@ -46,6 +46,10 @@ p{
   font-size: 14px;  
 }
 
+strong {
+  color: var(--orange);
+}
+
 button {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
@@ -53,7 +57,6 @@ button {
 
 small {
   font-family: 'Montserrat', sans-serif;
-
 }
 
 @layer base {

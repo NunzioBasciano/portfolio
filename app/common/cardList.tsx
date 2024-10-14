@@ -52,7 +52,7 @@ export const cardList = [
   },
   {
     title: "GitHub",
-    icon: "/gitHub.png",
+    icon: "/github.png",
     description: (
       <>
         Utilizzo <strong className="text-white font-semibold">GitHub</strong>{" "}

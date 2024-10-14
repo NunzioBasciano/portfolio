@@ -1,4 +1,4 @@
-import React from "react"; // Assicurati di importare React
+import React from "react";
 
 export const cardList = [
   {
@@ -18,7 +18,6 @@ export const cardList = [
       </>
     ),
   },
-
   {
     title: "CSS",
     icon: "/css.png",
@@ -89,7 +88,7 @@ export const cardList = [
   },
   {
     title: "TypeScript",
-    icon: "/typescript.png", // Assicurati di avere l'icona nella cartella pubblica
+    icon: "/typescript.png",
     description: (
       <>
         Grazie alla tipizzazione statica, riesco a catturare errori in fase di
@@ -162,7 +161,7 @@ export const cardList = [
 
   {
     title: "PostgreSQL",
-    icon: "/postgresql.png", // Aggiungi l&apos;icona appropriata
+    icon: "/postgresql.png",
     description: (
       <>
         Sono particolarmente interessato a esplorare le funzionalità di{" "}

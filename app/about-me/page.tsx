@@ -2,13 +2,15 @@ import Image from "next/image";
 import { cardList } from "../common/cardList";
 import Button from "../components/Button";
 import MainLayout from "../components/MainLayout";
+import ArticleGenerator from "../components/ArticleGenerator";
+import { aboutMe } from "../common/aboutMeArticle";
 
 function AboutMe() {
   return (
     <>
       <MainLayout>
         {/* className="py-4 px-6 w-full md:w-1/2 max-md:h-96 relative " */}
-        <div >
+        <div>
           <div className="relative w-4/5 h-3/5 rounded-xl overflow-hidden">
             {" "}
             {/* Cambia a rounded-lg e overflow-hidden */}
@@ -21,57 +23,12 @@ function AboutMe() {
             />
           </div>
         </div>
-        {/* className="py-4 px-6 flex flex-col gap-3 w-full md:w-1/2 min-h-[full] " */}
-        <div >
-          <h2 className="text-white text-2xl my-3 font-semibold">
-            Dalla Visione al Codice:
-          </h2>
-          <h3 className="text-3xl mb-2 text-[var(--orange)]">
-            Progettazione e Sviluppo Frontend
-          </h3>
-          <p>
-            Sono <strong>Nunzio Basciano</strong>, sviluppatore frontend
-            specializzato nella creazione di{" "}
-            <strong>interfacce utente intuitive</strong> e{" "}
-            <strong>performanti</strong>. Appassionato di{" "}
-            <strong>tecnologia</strong> e <strong>design</strong>, mi concentro
-            su <strong>esperienze utente (UX)</strong> fluide, con
-            un&apos;attenzione ai dettagli. Affronto ogni progetto con spirito{" "}
-            <strong>proattivo</strong> e desiderio di apprendere nuove
-            tecnologie.
-          </p>
-          <p>
-            Considero il <strong>problem-solving</strong> un&apos;opportunità
-            per innovare. Ho lavorato in <strong>team dinamici</strong>, dove la{" "}
-            <strong>comunicazione efficace</strong> è stata fondamentale per il
-            successo.
-          </p>
-          <p>
-            La mia <strong>adattabilità</strong> a nuovi ambienti mi consente di
-            gestire <strong>progetti complessi</strong>. Mantengo
-            un&apos;attenzione elevata ai dettagli, curando ogni fase dello
-            sviluppo, dall&apos;
-            <strong>ottimizzazione SEO</strong> alla{" "}
-            <strong>user experience</strong>, per garantire{" "}
-            <strong>soluzioni scalabili</strong> e <strong>performanti</strong>.
-          </p>
-          <p>
-            Con uno <strong>spirito di iniziativa</strong>, partecipo
-            attivamente a tutte le fasi del progetto, sviluppando{" "}
-            <strong>competenze di leadership</strong> nella gestione di team e
-            progetti.
-          </p>
-          <p>
-            Grazie alla mia <strong>flessibilità</strong> e alla mia{" "}
-            <strong>gestione del tempo</strong>, riesco a rispettare le scadenze
-            senza compromettere la qualità. Questi elementi, uniti
-            all&apos;attenzione alle{" "}
-            <strong>migliori pratiche di sviluppo web</strong> e{" "}
-            <strong>SEO</strong>, mi permettono di creare{" "}
-            <strong>soluzioni web efficaci</strong>.
-          </p>
-        </div>
-        </MainLayout>
+        <ArticleGenerator
+          title={aboutMe.title}
+          subTitle={aboutMe.subTitle}
+          paragraphs={aboutMe.paragraphs}
+        ></ArticleGenerator>
+      </MainLayout>
       <div className="my-3">
         <h2 className="py-3 text-white text-2xl font-semibold text-center">
           Skill-set

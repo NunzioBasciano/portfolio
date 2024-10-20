@@ -4,17 +4,13 @@ interface IArticleGeneratorProps {
   mainTitle?: string;
   title?: string;
   subTitle?: string;
-  paragraphs?: IParagraphsProps[];
+  paragraphs?: IParagraphProps[];
   buttons?: string[];
   children?: React.ReactNode;
 }
-
-interface IParagraphsProps {
-  text: string;
-  keyword?: string;
-  after?: string;
-  keyword2?: string;
-  after2?: string;
+interface IParagraphProps {
+  text: string; // Testo iniziale del paragrafo
+  keywords?: { keyword: string; after?: string }[]; // Array di parole chiave e testo successivo
 }
 
 function ArticleGenerator(props: IArticleGeneratorProps) {
@@ -36,17 +32,13 @@ function ArticleGenerator(props: IArticleGeneratorProps) {
         paragraphs.map((paragraph, index) => (
           <p className="tracking-wide" key={index}>
             {paragraph.text}
-
-            {paragraph.keyword && <strong>{paragraph.keyword}</strong>}
-
-            {paragraph.after}
-
-            {paragraph.keyword2 && (
-              <>
-                <strong>{paragraph.keyword2}</strong>
-                {paragraph.after2}
-              </>
-            )}
+            {paragraph.keywords &&
+              paragraph.keywords.map((kw, i) => (
+                <React.Fragment key={i}>
+                  <strong>{kw.keyword}</strong>
+                  {kw.after}
+                </React.Fragment>
+              ))}
           </p>
         ))}
 

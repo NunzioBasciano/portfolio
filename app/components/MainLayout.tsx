@@ -1,16 +1,24 @@
-import React from 'react'
+import React from "react";
+import classNames from "classnames";
 
 interface IMainLayoutProps {
-    children: React.ReactNode
+  children: React.ReactNode;
+  layout?: string;
 }
 
 function MainLayout(props: IMainLayoutProps) {
-    const { children } = props;
+  const { children, layout } = props;
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 custom-grid-rows py-3 gap-3">
-        {children}
+    <div
+      className={classNames(
+        "grid grid-cols-1 md:grid-cols-2 custom-grid-rows py-3 gap-3",
+        layout
+      )}
+    >
+      {" "}
+      {children}
     </div>
-  )
+  );
 }
 
-export default MainLayout
+export default MainLayout;

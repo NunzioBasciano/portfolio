@@ -1,4 +1,5 @@
 import React from "react";
+import classNames from "classnames";
 
 interface IArticleGeneratorProps {
   mainTitle?: string;
@@ -7,6 +8,7 @@ interface IArticleGeneratorProps {
   paragraphs?: IParagraphProps[];
   buttons?: string[];
   children?: React.ReactNode;
+  layout?: string;
 }
 interface IParagraphProps {
   text: string; // Testo iniziale del paragrafo
@@ -14,10 +16,10 @@ interface IParagraphProps {
 }
 
 function ArticleGenerator(props: IArticleGeneratorProps) {
-  const { title, mainTitle, subTitle, paragraphs, children } = props;
+  const { title, mainTitle, subTitle, paragraphs, children, layout } = props;
 
   return (
-    <div className="py-4 px-6 flex flex-col gap-3">
+    <div className={classNames("py-4 px-6 flex flex-col gap-3", layout)}>
       {mainTitle && (
         <h1 className="text-white text-2xl my-3 font-semibold">{mainTitle}</h1>
       )}

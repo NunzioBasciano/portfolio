@@ -8,25 +8,23 @@ import { aboutMe } from "../common/aboutMeArticle";
 function AboutMe() {
   return (
     <>
-      <MainLayout>
-        {/* className="py-4 px-6 w-full md:w-1/2 max-md:h-96 relative " */}
-        <div>
-          <div className="relative w-4/5 h-3/5 rounded-xl overflow-hidden">
-            {" "}
-            {/* Cambia a rounded-lg e overflow-hidden */}
-            <Image
-              src="/nunzioBasciano-foto.jpg"
-              alt="Foto di Nunzio Basciano"
-              layout="fill"
-              objectFit="cover"
-              className="rounded-lg"
-            />
-          </div>
+      <MainLayout layout="md:grid-cols-5 md:grid-rows-3">
+        {/*  */}
+        <div className="relative w-[90%] mx-auto h-64 md:h-auto md:col-span-2 md:row-span-2 rounded-xl overflow-hidden">
+          <Image
+            src="/nunzioBasciano-foto.jpg"
+            alt="Foto di Nunzio Basciano"
+            layout="fill"
+            objectFit="cover"
+            className="rounded-lg"
+          />
         </div>
+
         <ArticleGenerator
           title={aboutMe.title}
           subTitle={aboutMe.subTitle}
           paragraphs={aboutMe.paragraphs}
+          layout="md:col-span-3 md:row-span-3"
         ></ArticleGenerator>
       </MainLayout>
       <div className="my-3">

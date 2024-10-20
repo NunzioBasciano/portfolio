@@ -32,11 +32,11 @@ function AboutMe() {
           Skill-set
         </h2>
         <div>
-          <div className="flex justify-center flex-wrap mx-auto gap-3">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 custom-grid-rows gap-3 ">
             {cardList.map((item, index) => (
               <div
                 key={index}
-                className="p-6 shadow-[0_1px_2px_0_rgba(60,64,67,0.3),_0_2px_6px_2px_rgba(60,64,67,0.15)] rounded-2xl w-full md:w-[300px]"
+                className=" p-6 shadow-[0_1px_2px_0_rgba(60,64,67,0.3),_0_2px_6px_2px_rgba(60,64,67,0.15)] rounded-2xl w-full "
               >
                 <Image
                   src={item.icon}

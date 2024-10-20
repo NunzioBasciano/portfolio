@@ -1,10 +1,21 @@
+import ArticleGenerator from "./components/ArticleGenerator";
 import Button from "./components/Button";
 import Carousel from "./components/Carousel";
+import MainLayout from "./components/MainLayout";
+import { homeArticle } from "./common/homeArticle";
 
 export default function Home() {
-
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 custom-grid-rows py-3 gap-3">
+    <MainLayout>
+      <ArticleGenerator
+        mainTitle={homeArticle.mainTitle}
+        subTitle={homeArticle.subtitle}
+        paragraphs={homeArticle.paragraphs}
+      >
+        <Button downloadCV={true} label="Scarica CV" />
+        <Button link="/my-project" label="Progetti" />
+        <Button link="/contact" label="Contatti" />
+      </ArticleGenerator>
       <div className="py-4 px-6 flex flex-col gap-3 ">
         <h1 className="text-white text-2xl my-3 font-semibold">
           Nunzio Basciano
@@ -12,6 +23,7 @@ export default function Home() {
         <h2 className="text-3xl mb-2 text-[var(--orange)]">
           Sviluppatore Frontend
         </h2>
+
         <p className="tracking-wide">
           Sono uno <strong>sviluppatore frontend</strong> con attenzione ai
           dettagli e passione per funzionalità fluide e ottimizzate.
@@ -36,6 +48,6 @@ export default function Home() {
         </div>
       </div>
       <Carousel />
-    </div>
+    </MainLayout>
   );
 }

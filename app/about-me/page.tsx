@@ -1,12 +1,14 @@
 import Image from "next/image";
 import { cardList } from "../common/cardList";
 import Button from "../components/Button";
+import MainLayout from "../components/MainLayout";
 
 function AboutMe() {
   return (
     <>
-      <div className="py-3 md:flex md:gap-3 max-md:flex max-md:flex-col max-md:gap-3 justify-between">
-        <div className="py-4 px-6 w-full md:w-1/2 max-md:h-96 relative ">
+      <MainLayout>
+        {/* className="py-4 px-6 w-full md:w-1/2 max-md:h-96 relative " */}
+        <div >
           <div className="relative w-4/5 h-3/5 rounded-xl overflow-hidden">
             {" "}
             {/* Cambia a rounded-lg e overflow-hidden */}
@@ -19,7 +21,8 @@ function AboutMe() {
             />
           </div>
         </div>
-        <div className="py-4 px-6 flex flex-col gap-3 w-full md:w-1/2 min-h-[full] ">
+        {/* className="py-4 px-6 flex flex-col gap-3 w-full md:w-1/2 min-h-[full] " */}
+        <div >
           <h2 className="text-white text-2xl my-3 font-semibold">
             Dalla Visione al Codice:
           </h2>
@@ -68,7 +71,7 @@ function AboutMe() {
             <strong>soluzioni web efficaci</strong>.
           </p>
         </div>
-      </div>
+        </MainLayout>
       <div className="my-3">
         <h2 className="py-3 text-white text-2xl font-semibold text-center">
           Skill-set

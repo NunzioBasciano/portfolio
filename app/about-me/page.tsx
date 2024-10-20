@@ -7,7 +7,7 @@ function AboutMe() {
     <>
       <div className="py-3 md:flex md:gap-3 max-md:flex max-md:flex-col max-md:gap-3 justify-between">
         <div className="py-4 px-6 w-full md:w-1/2 max-md:h-96 relative ">
-          <div className="relative w-full h-full rounded-xl overflow-hidden border-2 border-[var(--orange)]">
+          <div className="relative w-4/5 h-3/5 rounded-xl overflow-hidden">
             {" "}
             {/* Cambia a rounded-lg e overflow-hidden */}
             <Image
@@ -19,7 +19,7 @@ function AboutMe() {
             />
           </div>
         </div>
-        <div className="py-4 px-6 flex flex-col gap-3 w-full md:w-1/2 min-h-[full] shadow-[0_1px_2px_0_rgba(60,64,67,0.3),_0_2px_6px_2px_rgba(60,64,67,0.15)] rounded-2xl">
+        <div className="py-4 px-6 flex flex-col gap-3 w-full md:w-1/2 min-h-[full] ">
           <h2 className="text-white text-2xl my-3 font-semibold">
             Dalla Visione al Codice:
           </h2>
@@ -40,7 +40,7 @@ function AboutMe() {
           <p>
             Considero il <strong>problem-solving</strong> un&apos;opportunità
             per innovare. Ho lavorato in <strong>team dinamici</strong>, dove la{" "}
-            <strong>comunicazione efficace</strong> è fondamentale per il
+            <strong>comunicazione efficace</strong> è stata fondamentale per il
             successo.
           </p>
           <p>
@@ -59,10 +59,11 @@ function AboutMe() {
             progetti.
           </p>
           <p>
-            Grazie alla mia <strong>gestione del tempo</strong> e{" "}
-            <strong>flessibilità</strong>, riesco a rispettare le scadenze senza
-            compromettere la qualità. Questi elementi, uniti all&apos;attenzione
-            alle <strong>migliori pratiche di sviluppo web</strong> e{" "}
+            Grazie alla mia <strong>flessibilità</strong> e alla mia{" "}
+            <strong>gestione del tempo</strong>, riesco a rispettare le scadenze
+            senza compromettere la qualità. Questi elementi, uniti
+            all&apos;attenzione alle{" "}
+            <strong>migliori pratiche di sviluppo web</strong> e{" "}
             <strong>SEO</strong>, mi permettono di creare{" "}
             <strong>soluzioni web efficaci</strong>.
           </p>

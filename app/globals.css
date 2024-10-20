@@ -70,6 +70,7 @@ small {
 /* In styles/global.css o il file CSS appropriato */
 .custom-scrollbar::-webkit-scrollbar {
  padding: 1rem; /* Altezza della scrollbar */
+ margin: 0;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {

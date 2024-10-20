@@ -2,9 +2,10 @@ import Button from "./components/Button";
 import Carousel from "./components/Carousel";
 
 export default function Home() {
+
   return (
-    <div className="py-3 md:flex md:gap-3 justify-between">
-      <div className="py-4 px-6 flex flex-col gap-3 w-full min-h-[full] ">
+    <div className="grid grid-cols-1 md:grid-cols-2 custom-grid-rows py-3 gap-3">
+      <div className="py-4 px-6 flex flex-col gap-3 ">
         <h1 className="text-white text-2xl my-3 font-semibold">
           Nunzio Basciano
         </h1>

@@ -6,10 +6,10 @@ export const projectList = [
       "Soluzione scalabile per la gestione degli inventari e delle vendite",
     icon: "/SicilyPulse.jpg",
     technologies: [
-      { title: "Next", src: "/next.png" },
-      { title: "Tailwind", src: "/tailwind.png" },
-      { title: "PostgreSQL", src: "/postgresql.png" },
-      { title: "AWS", src: "/AWS.png" },
+      { id: "8", title: "Next", src: "/next.png" },
+      { id: "3", title: "Tailwind", src: "/tailwind.png" },
+      { id: "11", title: "PostgreSQL", src: "/postgresql.png" },
+      { id: "12", title: "AWS", src: "/AWS.png" },
       /*       
       "Redux Toolkit",
       "Material UI Data Grid",

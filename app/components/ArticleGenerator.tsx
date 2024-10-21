@@ -19,6 +19,7 @@ interface IParagraphProps {
 }
 
 interface ITechnologies {
+  id: string;
   title: string;
   src: string;
 }

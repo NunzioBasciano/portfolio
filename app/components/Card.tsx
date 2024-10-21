@@ -1,0 +1,44 @@
+import Image from "next/image";
+import React from "react";
+
+interface ICardProps {
+  index: number;
+  icon: string;
+  title: string;
+  paragraphs: IParagraphProps[];
+}
+
+interface IParagraphProps {
+  text: string; // Testo iniziale del paragrafo
+  keywords?: { keyword: string; after?: string }[]; // Array di parole chiave e testo successivo
+}
+
+function Card(props: ICardProps) {
+  const { index, icon, title, paragraphs } = props;
+  return (
+    <div
+      key={index}
+      className=" p-6 shadow-[0_1px_2px_0_rgba(60,64,67,0.3),_0_2px_6px_2px_rgba(60,64,67,0.15)] rounded-2xl w-full "
+    >
+      <Image src={icon} alt={title} width={50} height={50} className="my-6" />
+      <h3 className="text-2xl mb-3 text-[var(--orange)]">{title}</h3>
+      {paragraphs &&
+        paragraphs.map((paragraph, index) => (
+          <p className="tracking-wide" key={index}>
+            {paragraph.text}
+            {paragraph.keywords &&
+              paragraph.keywords.map((kw, i) => (
+                <React.Fragment key={i}>
+                  <strong className="text-white font-semibold">
+                    {kw.keyword}
+                  </strong>
+                  {kw.after}
+                </React.Fragment>
+              ))}
+          </p>
+        ))}
+    </div>
+  );
+}
+
+export default Card;

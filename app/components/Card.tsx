@@ -25,6 +25,7 @@ interface IParagraphProps {
 
 function Card(props: ICardProps) {
   const { id, index, icon, title, paragraphs, layout, smallIcon } = props;
+  console.log(id);
   return (
     <Link href={`/my-work/${id}`}>
       <div

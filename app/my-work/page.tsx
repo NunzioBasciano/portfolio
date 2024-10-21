@@ -12,6 +12,7 @@ function MYWork() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 custom-grid-rows gap-3 ">
           {projectList.map((item, index) => (
             <Card
+              id={item.id}
               key={index}
               index={index}
               icon={item.icon}

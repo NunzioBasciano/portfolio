@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import MenuLink from "./MenuLink";
 import Hamburger from "./Hamburger";
 import HamburgerMenu from "./HamburgerMenu";

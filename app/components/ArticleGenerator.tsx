@@ -1,7 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 
-interface IArticleGeneratorProps {
+export interface IArticleGeneratorProps {
   mainTitle?: string;
   title?: string;
   subTitle?: string;
@@ -9,10 +9,18 @@ interface IArticleGeneratorProps {
   buttons?: string[];
   children?: React.ReactNode;
   layout?: string;
+  description?: IParagraphProps[];
+  technologies?: ITechnologies[];
 }
+
 interface IParagraphProps {
-  text: string; // Testo iniziale del paragrafo
-  keywords?: { keyword: string; after?: string }[]; // Array di parole chiave e testo successivo
+  text: string;
+  keywords?: { keyword: string; after?: string }[];
+}
+
+interface ITechnologies {
+  title: string;
+  src: string;
 }
 
 function ArticleGenerator(props: IArticleGeneratorProps) {

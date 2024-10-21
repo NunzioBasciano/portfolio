@@ -35,6 +35,7 @@ function AboutMe() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 custom-grid-rows gap-3 ">
             {cardList.map((item, index) => (
               <Card
+                key={index}
                 index={index}
                 icon={item.icon}
                 title={item.title}

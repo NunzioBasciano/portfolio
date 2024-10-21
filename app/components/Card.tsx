@@ -35,8 +35,14 @@ function Card(props: ICardProps) {
       className="p-6 shadow-[0_1px_2px_0_rgba(60,64,67,0.3),_0_2px_6px_2px_rgba(60,64,67,0.15)] rounded-2xl w-full"
     >
       {layout ? (
-        <div className="relative w-full h-[200px] rounded-xl overflow-hidden mb-3">
-          <Image src={icon} alt={title} layout="fill" objectFit="cover" />
+        <div className="absolute w-full h-[200px] rounded-xl overflow-hidden mb-3 z-0">
+          <Image
+            className="relative z-0"
+            src={icon}
+            alt={title}
+            layout="fill"
+            objectFit="cover"
+          />
         </div>
       ) : (
         <Image src={icon} alt={title} width={50} height={50} className="my-6" />

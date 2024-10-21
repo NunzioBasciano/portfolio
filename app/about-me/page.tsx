@@ -17,7 +17,7 @@ function AboutMe() {
             alt="Foto di Nunzio Basciano"
             layout="fill"
             objectFit="cover"
-            className="rounded-lg"
+            className="rounded-lg relative"
           />
         </div>
         <ArticleGenerator

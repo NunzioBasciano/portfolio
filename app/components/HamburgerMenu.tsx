@@ -1,16 +1,17 @@
 import React from "react";
-import MenuLink from "./MenuLink";
 
 interface IHamburgerMenu {
   isOpen: boolean;
+  children: React.ReactNode;
 }
 
-function HamburgerMenu({ isOpen }: IHamburgerMenu) {
+function HamburgerMenu(props: IHamburgerMenu) {
+  const { isOpen, children } = props;
   return (
     <>
       {isOpen && (
-        <div className="w-full bg-[var(--lightBlue)] fixed top-[74px] p-3">
-          <MenuLink></MenuLink>
+        <div className="w-full bg-[var(--darkBlue)] fixed top-[74px] left-0 p-6 text-center shadow-[0_2px_6px_0_rgba(60,64,67,0.15)] z-[9999]">
+          {children}
         </div>
       )}
     </>

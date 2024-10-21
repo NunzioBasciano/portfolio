@@ -5,11 +5,17 @@ interface IMenuLink {
   path?: string;
   highlight?: boolean;
   isFooter?: boolean;
+  isMenu?: boolean;
 }
 
-function MenuLink({ path, highlight = false, isFooter = false }: IMenuLink) {
+function MenuLink(props: IMenuLink) {
+  const { path, highlight = false, isFooter = false, isMenu = false } = props;
   return (
-    <ul className={`gap-4 text-white ${!isFooter ? "hidden md:flex" : "flex"}`}>
+    <ul
+      className={`gap-4 text-white ${
+        isMenu ? "block z-20" : !isFooter ? "hidden md:flex" : "flex"
+      } ${isMenu ? "flex flex-col gap-3 z-50" : ""}`}
+    >
       {menuLink.map((item) => (
         <li key={item.label}>
           <Link href={item.href}>

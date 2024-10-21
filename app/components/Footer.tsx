@@ -19,7 +19,7 @@ function Footer() {
       </div>
       <MenuLink highlight={false} isFooter={true} path={path} />
       <small className="m-6 text-[var(--orange)]">
-        © 2024 All Rights Reserved by ThemeJunction
+        © 2024 All Rights Reserved by Nunzio Basciano
       </small>
     </footer>
   );

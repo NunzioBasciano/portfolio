@@ -10,8 +10,9 @@ const cardList = [
 ];
 
 function Carousel() {
+
   return (
-    <div className="max-md:mt-3 flex overflow-x-auto scroll-smooth snap-x snap-mandatory w-full min-h-[full] rounded-2xl shadow-[0_1px_2px_0_rgba(60,64,67,0.3),_0_2px_6px_2px_rgba(60,64,67,0.15)] custom-scrollbar">
+    <div className="max-md:mt-3 flex overflow-x-auto scroll-smooth snap-x snap-mandatory w-full min-h-[full] custom-scrollbar">
       {cardList.map((item, index) => (
         <div
           key={index}

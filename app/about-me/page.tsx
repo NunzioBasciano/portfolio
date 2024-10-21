@@ -40,12 +40,14 @@ function AboutMe() {
                 icon={item.icon}
                 title={item.title}
                 paragraphs={item.paragraphs}
+                id={item.id}
+                isLink={false}
               />
             ))}
           </div>
           <div className="flex justify-center gap-3 mt-3">
             <Button downloadCV={true} label="Scarica CV" />
-            <Button link="/my-project" label="Progetti" />
+            <Button link="/my-work" label="Progetti" />
             <Button link="/contact" label="Contatti" />
           </div>
         </div>

@@ -20,6 +20,7 @@ function MYWork() {
               paragraphs={item.paragraphs || []}
               layout={true}
               smallIcon={item.technologies}
+              isLink={true}
             />
           ))}
         </div>

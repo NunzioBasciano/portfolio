@@ -1,5 +1,6 @@
 export const cardList = [
   {
+    id: "1",
     title: "HTML",
     icon: "/html.png",
     paragraphs: [
@@ -23,6 +24,7 @@ export const cardList = [
     ],
   },
   {
+    id: "2",
     title: "CSS",
     icon: "/css.png",
     paragraphs: [
@@ -53,6 +55,7 @@ export const cardList = [
     ],
   },
   {
+    id: "3",
     title: "Tailwind CSS",
     icon: "/tailwind.png",
     paragraphs: [
@@ -69,6 +72,7 @@ export const cardList = [
     ],
   },
   {
+    id: "4",
     title: "GitHub",
     icon: "/github.png",
     paragraphs: [
@@ -102,6 +106,7 @@ export const cardList = [
     ],
   },
   {
+    id: "5",
     title: "JavaScript",
     icon: "/js.png",
     paragraphs: [
@@ -127,6 +132,7 @@ export const cardList = [
     ],
   },
   {
+    id: "6",
     title: "TypeScript",
     icon: "/typescript.png",
     paragraphs: [
@@ -143,6 +149,7 @@ export const cardList = [
     ],
   },
   {
+    id: "7",
     title: "ReactJS",
     icon: "/ReactJS.png",
     paragraphs: [
@@ -162,6 +169,7 @@ export const cardList = [
     ],
   },
   {
+    id: "8",
     title: "Next.js",
     icon: "/next.png",
     paragraphs: [
@@ -186,6 +194,7 @@ export const cardList = [
     ],
   },
   {
+    id: "9",
     title: "MongoDB",
     icon: "/mongoDB.png",
     paragraphs: [
@@ -202,6 +211,7 @@ export const cardList = [
     ],
   },
   {
+    id: "10",
     title: "Postman",
     icon: "/postman.png",
     paragraphs: [
@@ -227,6 +237,7 @@ export const cardList = [
     ],
   },
   {
+    id: "11",
     title: "PostgreSQL",
     icon: "/postgresql.png",
     paragraphs: [
@@ -243,6 +254,7 @@ export const cardList = [
     ],
   },
   {
+    id: "12",
     title: "AWS",
     icon: "/AWS.png",
     paragraphs: [

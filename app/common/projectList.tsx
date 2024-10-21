@@ -10,12 +10,11 @@ export const projectList = [
       { id: "3", title: "Tailwind", src: "/tailwind.png" },
       { id: "11", title: "PostgreSQL", src: "/postgresql.png" },
       { id: "12", title: "AWS", src: "/AWS.png" },
-      /*       
-      "Redux Toolkit",
-      "Material UI Data Grid",
-      "Node.js",
-      "Prisma",
-      "Nodemon & ts-node",*/
+      { id: "13", title: "Redux Toolkit", src: "/redux.png" },
+      { id: "14", title: "Material UI Data Grid", src: "/material.png" },
+      { id: "15", title: "Node.js", src: "/node.png" },
+      { id: "16", title: "Prisma", src: "/prisma.png" },
+      { id: "17", title: "Nodemon", src: "/nodemon.png" },
     ],
     paragraphs: [
       {
@@ -128,6 +127,95 @@ export const projectList = [
           {
             keyword: "AWS ",
             after: "garantisce l'ottimizzazione delle risorse.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "2",
+    title: "Product Management",
+    subTitle: "Gestione completa dei prodotti in un'interfaccia web intuitiva",
+    icon: "/myProductIcon.jpg", // Assicurati di avere un'icona appropriata
+    technologies: [
+      { id: "7", title: "React", src: "/ReactJS.png" },
+      { id: "5", title: "CSS", src: "/css.png" },
+      { id: "15", title: "Node.js", src: "/node.png" },
+    ],
+    paragraphs: [
+      {
+        text: "",
+        keywords: [
+          {
+            keyword: "Gestione Prodotti",
+            after: "è un'applicazione web per la ",
+          },
+          {
+            keyword: "visualizzazione",
+            after: " e ",
+          },
+          {
+            keyword: "filtraggio dei prodotti",
+            after: ", consentendo agli utenti di ",
+          },
+          {
+            keyword: "modificare",
+            after: " e ",
+          },
+          {
+            keyword: "eliminare prodotti",
+            after: " da un elenco centralizzato.",
+          },
+          {
+            keyword: "React",
+            after: " è utilizzato per la costruzione dell'interfaccia utente.",
+          },
+          {
+            keyword: "React Router",
+            after: " per una navigazione fluida tra le pagine.",
+          },
+        ],
+      },
+    ],
+    description: [
+      {
+        text: "",
+        keywords: [
+          {
+            keyword: "Product Management",
+            after: " è un'applicazione web costruita con ",
+          },
+          {
+            keyword: "React",
+            after: " e ",
+          },
+          {
+            keyword: "React Router",
+            after: " per gestire la navigazione. ",
+          },
+          {
+            keyword: "Gli utenti possono",
+            after:
+              " visualizzare, filtrare, aggiungere, modificare ed eliminare prodotti da un elenco centralizzato.",
+          },
+          {
+            keyword: "React Toastify",
+            after:
+              " è utilizzato per visualizzare notifiche per le operazioni di successo o errore.",
+          },
+          {
+            keyword: "CSS",
+            after: " viene impiegato per lo stile dell'applicazione.",
+          },
+          {
+            keyword: "Integrazione con API",
+            after:
+              " per gestire le operazioni sui prodotti tramite il backend.",
+          },
+          {
+            keyword: "Funzionalità",
+            after:
+              ": gli utenti possono visualizzare i prodotti, applicare filtri per cercare articoli specifici, modificare dettagli e eliminarli con notifiche di conferma.",
           },
         ],
       },

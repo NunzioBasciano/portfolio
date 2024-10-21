@@ -278,4 +278,94 @@ export const cardList = [
       },
     ],
   },
+  {
+    id: "13",
+    title: "Redux Toolkit",
+    icon: "/redux.png",
+    paragraphs: [
+      {
+        text: "Utilizzo ",
+        keywords: [
+          {
+            keyword: "Redux Toolkit",
+            after:
+              " per semplificare la gestione dello stato nelle applicazioni React. Grazie alla sua struttura intuitiva, posso implementare una gestione dello stato più efficiente e scalabile, migliorando notevolmente la ",
+          },
+          {
+            keyword: "manutenzione",
+            after:
+              " del codice e riducendo al contempo la complessità della logica di stato.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "14",
+    title: "Material UI Data Grid",
+    icon: "/material.png",
+    paragraphs: [
+      {
+        text: "Sfrutto ",
+        keywords: [
+          {
+            keyword: "Material UI Data Grid",
+            after:
+              " per costruire interfacce utente moderne e interattive, migliorando notevolmente l'esperienza utente. Questo strumento consente di visualizzare e gestire grandi volumi di dati in modo efficiente, rendendo le informazioni facilmente accessibili.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "15",
+    title: "Node.js",
+    icon: "/node.png",
+    paragraphs: [
+      {
+        text: "Utilizzo ",
+        keywords: [
+          {
+            keyword: "Node.js",
+            after:
+              " per costruire applicazioni web veloci e scalabili, sfruttando la sua architettura basata su eventi. La mia competenza in questo ambito mi consente di creare backend efficienti e di gestire facilmente le richieste degli utenti.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "16",
+    title: "Prisma",
+    icon: "/prisma.png",
+    paragraphs: [
+      {
+        text: "Utilizzo ",
+        keywords: [
+          {
+            keyword: "Prisma",
+            after:
+              " come ORM per semplificare l'interazione con i database, garantendo una gestione fluida e sicura dei dati. Grazie a Prisma, riesco a scrivere query complesse in modo semplice e chiaro, migliorando la produttività e la qualità del codice.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "17",
+    title: "Nodemon",
+    icon: "/nodemon.png",
+    paragraphs: [
+      {
+        text: "Utilizzo ",
+        keywords: [
+          {
+            keyword: "Nodemon",
+            after:
+              " per ottimizzare il processo di sviluppo Node.js. Questo strumento mi permette di monitorare le modifiche al codice e riavviare automaticamente l'applicazione, rendendo il flusso di lavoro più fluido ed efficiente.",
+          },
+        ],
+      },
+    ],
+  },
 ];

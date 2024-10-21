@@ -16,16 +16,54 @@ export const projectList = [
       "Prisma",
       "Nodemon & ts-node",*/
     ],
-    lightDescription: (
-      <>
-        <strong>Inventory Management</strong> è una moderna app web per la{" "}
-        <strong>gestione di inventari</strong> e <strong>vendite</strong>,
-        sviluppata con <strong>Next.js</strong> e <strong>Node.js</strong>.
-        Ottimizzata con <strong>Prisma ORM</strong>, <strong>AWS RDS</strong> e{" "}
-        <strong>Redux Toolkit</strong> per garantire{" "}
-        <strong>scalabilità</strong> e <strong>prestazioni elevate</strong>.
-      </>
-    ),
+    paragraphs: [
+      {
+        text: "",
+        keywords: [
+          {
+            keyword: "Inventory Management ",
+            after: "è una moderna app web per la ",
+          },
+          {
+            keyword: "gestione di inventari ",
+            after: "e ",
+          },
+          {
+            keyword: "vendite",
+            after: " sviluppata con ",
+          },
+          {
+            keyword: "Next.js",
+            after: " e ",
+          },
+          {
+            keyword: "Node.js",
+            after: ". Ottimizzata con ",
+          },
+          {
+            keyword: "Prisma ORM",
+            after: ", ",
+          },
+          {
+            keyword: "AWS RDS",
+            after: " e ",
+          },
+          {
+            keyword: "Redux Toolkit ",
+            after: "per garantire ",
+          },
+          {
+            keyword: "scalabilità ",
+            after: "e ",
+          },
+          {
+            keyword: "prestazioni elevate",
+            after: ".",
+          },
+        ],
+      },
+    ],
+
     description: (
       <>
         <strong className="text-white font-semibold">

@@ -4,7 +4,7 @@ import ImageComponent from "./ImageComponent";
 import Link from "next/link";
 
 interface ICardProps {
-  id: string;
+  id?: string;
   index: number;
   icon: string;
   title: string;
@@ -25,7 +25,7 @@ interface IParagraphProps {
 
 function Card(props: ICardProps) {
   const { id, index, icon, title, paragraphs, layout, smallIcon } = props;
-  console.log(id);
+
   return (
     <Link href={`/my-work/${id}`}>
       <div

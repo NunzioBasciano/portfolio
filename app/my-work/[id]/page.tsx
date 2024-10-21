@@ -34,7 +34,7 @@ function MyWorkDetail({ params }: { params: { id: string } }) {
         paragraphs={project.description}
       >
         {project.technologies?.map((item, index) => (
-          <Link href={"/about-me"}>
+          <Link key={index} href={"/about-me"}>
             <ImageComponent key={index} src={item.src} alt={item.title} />
           </Link>
         ))}

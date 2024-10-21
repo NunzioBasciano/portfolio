@@ -64,7 +64,7 @@ export const projectList = [
       },
     ],
 
-    description: (
+    /* description: (
       <>
         <strong className="text-white font-semibold">
           Inventory Management
@@ -110,9 +110,9 @@ export const projectList = [
         <strong className="text-white font-semibold">AWS</strong> garantisce
         l'ottimizzazione delle risorse.
       </>
-    ),
+    ), */
   },
-  {
+  /*  {
     title: "MyProduct",
     icon: "/product-management.png",
     technologies: [
@@ -157,5 +157,5 @@ export const projectList = [
         <strong className="text-white font-semibold">CSS</strong>.
       </>
     ),
-  },
+  }, */
 ];

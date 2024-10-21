@@ -6,10 +6,17 @@ interface IMenuLink {
   highlight?: boolean;
   isFooter?: boolean;
   isMenu?: boolean;
+  onClick?: () => void;
 }
 
 function MenuLink(props: IMenuLink) {
-  const { path, highlight = false, isFooter = false, isMenu = false } = props;
+  const {
+    path,
+    highlight = false,
+    isFooter = false,
+    isMenu = false,
+    onClick,
+  } = props;
   return (
     <ul
       className={`gap-4 text-white ${
@@ -18,7 +25,7 @@ function MenuLink(props: IMenuLink) {
     >
       {menuLink.map((item) => (
         <li key={item.label}>
-          <Link href={item.href}>
+          <Link href={item.href} onClick={onClick}>
             <div
               className={`font-['Montserrat'] transform transition-transform duration-300 ease-in-out ${
                 highlight ? "hover:scale-110" : ""

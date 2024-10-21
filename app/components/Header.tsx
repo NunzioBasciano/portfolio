@@ -15,6 +15,7 @@ const Header = () => {
   const openMenu = () => {
     setIsOpen(!isOpen); // Toggle the menu state
   };
+
   const closeMenu = () => setIsOpen(false);
 
   useEffect(() => {
@@ -49,7 +50,12 @@ const Header = () => {
       <MenuLink highlight={true} path={path} />
       <Hamburger switchMenu={openMenu} />
       <HamburgerMenu isOpen={isOpen}>
-        <MenuLink highlight={false} path={path} isMenu={true} />
+        <MenuLink
+          highlight={false}
+          path={path}
+          isMenu={true}
+          onClick={closeMenu}
+        />
       </HamburgerMenu>
     </header>
   );

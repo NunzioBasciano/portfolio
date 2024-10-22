@@ -42,3 +42,19 @@ export interface IParagraphProps {
   text: string; // Testo iniziale del paragrafo
   keywords?: { keyword: string; after?: string }[]; // Array di parole chiave e testo successivo
 }
+
+export interface ICarousel {
+  projects?: IProject[];
+  detailProject?: IDetailProject[];
+}
+
+export interface IDetailProject {
+  src: string;
+  alt: string;
+}
+
+export interface IProject {
+  id: string;
+  title: string;
+  href: string;
+}

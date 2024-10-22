@@ -16,6 +16,7 @@ function MyWorkDetail({ params }: { params: { id: string } }) {
   useEffect(() => {
     // Trova il progetto corrispondente all'id (convertito a numero)
     const detail = projectList.find((project) => project.id === id);
+    console.log(detail);
     if (detail) {
       setProject(detail);
     }
@@ -39,7 +40,7 @@ function MyWorkDetail({ params }: { params: { id: string } }) {
           </Link>
         ))}
       </ArticleGenerator>
-      <Carousel />
+      <Carousel detailProject={project.iconList} />
     </MainLayout>
   );
 }

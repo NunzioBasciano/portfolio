@@ -11,6 +11,7 @@ export interface IArticleGeneratorProps {
   layout?: string;
   description?: IParagraphProps[];
   technologies?: ITechnologies[];
+  iconList?: { src: string; alt: string }[];
 }
 
 interface IParagraphProps {

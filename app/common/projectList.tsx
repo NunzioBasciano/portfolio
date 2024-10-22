@@ -5,6 +5,11 @@ export const projectList = [
     subTitle:
       "Soluzione scalabile per la gestione degli inventari e delle vendite",
     icon: "/SicilyPulse.jpg",
+    iconList: [
+      { src: "/SicilyPulse.jpg", alt: "SicilyPulse" },
+      { src: "/SicilyPulse1.jpg", alt: "SicilyPulse" },
+      { src: "/SicilyPulse2.jpg", alt: "SicilyPulse" },
+    ],
     technologies: [
       { id: "8", title: "Next", src: "/next.png" },
       { id: "3", title: "Tailwind", src: "/tailwind.png" },

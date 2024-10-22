@@ -10,7 +10,7 @@ function HamburgerMenu(props: IHamburgerMenu) {
   return (
     <>
       {isOpen && (
-        <div className="w-full bg-[var(--darkBlue)] fixed top-[74px] left-0 p-6 text-center shadow-[0_2px_6px_0_rgba(60,64,67,0.15)] z-[9999]">
+        <div className="w-full bg-[var(--darkBlue)] fixed top-[74px] left-0 p-12 text-center shadow-[0_2px_6px_0_rgba(60,64,67,0.15)] z-[9999]">
           {children}
         </div>
       )}

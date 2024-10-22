@@ -10,7 +10,6 @@ interface IButtonProps {
 function Button(props: IButtonProps) {
   const { label, link, downloadCV = false, isDisabled = false } = props;
 
-  // Bottone per il download del CV
   if (downloadCV) {
     return (
       <a href="/CV_Basciano-Nunzio.pdf" download>
@@ -21,7 +20,6 @@ function Button(props: IButtonProps) {
     );
   }
 
-  // Bottone con link normale
   return (
     <Link href={link || "#"} passHref>
       <button

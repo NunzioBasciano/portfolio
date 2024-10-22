@@ -1,8 +1,7 @@
 "use client";
+import { IArticleGeneratorProps } from "@/app/common/interfaces";
 import { projectList } from "@/app/common/projectList";
-import ArticleGenerator, {
-  IArticleGeneratorProps,
-} from "@/app/components/ArticleGenerator";
+import ArticleGenerator from "@/app/components/ArticleGenerator";
 import Carousel from "@/app/components/Carousel";
 import ImageComponent from "@/app/components/ImageComponent";
 import MainLayout from "@/app/components/MainLayout";
@@ -14,15 +13,14 @@ function MyWorkDetail({ params }: { params: { id: string } }) {
   const { id } = params;
 
   useEffect(() => {
-    // Trova il progetto corrispondente all'id (convertito a numero)
     const detail = projectList.find((project) => project.id === id);
+    console.log(detail);
     if (detail) {
       setProject(detail);
     }
   }, [id]);
 
   if (!project) {
-    // Renderizza un messaggio di caricamento o errore se il progetto non è ancora disponibile
     return <div>Progetto non trovato</div>;
   }
 
@@ -39,7 +37,7 @@ function MyWorkDetail({ params }: { params: { id: string } }) {
           </Link>
         ))}
       </ArticleGenerator>
-      <Carousel />
+      <Carousel detailProject={project.iconList} />
     </MainLayout>
   );
 }

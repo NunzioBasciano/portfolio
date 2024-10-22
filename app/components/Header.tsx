@@ -51,7 +51,7 @@ const Header = () => {
       <Hamburger switchMenu={openMenu} />
       <HamburgerMenu isOpen={isOpen}>
         <MenuLink
-          highlight={false}
+          highlight={true}
           path={path}
           isMenu={true}
           onClick={closeMenu}

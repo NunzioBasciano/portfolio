@@ -4,6 +4,11 @@ import Button from "./components/Button";
 import Carousel from "./components/Carousel";
 import MainLayout from "./components/MainLayout";
 
+const cardList = [
+  { id: "1", title: "Inventory Management", href: "/SicilyPulse.jpg" },
+  { id: "2", title: "Product Management", href: "/inventory-management.png" },
+];
+
 export default function Home() {
   return (
     <MainLayout>
@@ -16,7 +21,7 @@ export default function Home() {
         <Button link="/my-project" label="Progetti" />
         <Button link="/contact" label="Contatti" />
       </ArticleGenerator>
-      <Carousel />
+      <Carousel projects={cardList} />
     </MainLayout>
   );
 }

@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio di Nunzio Basciano
 
-## Getting Started
+Questo progetto rappresenta il mio portfolio personale, sviluppato con Next.js e TypeScript. È stato creato per mostrare progetti, competenze e per permettere un facile contatto tramite un form interattivo. Il sito include anche sezioni per visualizzare i progetti, scaricare il CV e una pagina di contatti con invio automatico di email.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologie Utilizzate
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js**: Framework React per lo sviluppo del frontend con rendering lato server (SSR) e static site generation (SSG).
+- **TypeScript**: Linguaggio di programmazione basato su JavaScript con tipizzazione statica.
+- **EmailJS**: Servizio per l'invio di email senza backend.
+- **Tailwind CSS:** Libreria CSS utility-first per uno styling moderno e reattivo.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Caratteristiche Principali
 
-## Learn More
+- **components/**: Contiene tutti i componenti React utilizzati nelle varie pagine del sito (ad es. Carousel, ArticleGenerator, Button).
+- **common/**: Contiene dati statici come la lista dei progetti (projectList) e informazioni generali utilizzate nelle pagine (ad es. aboutMeArticle).
+- **public/**: Contiene le immagini utilizzate nel sito, come foto del profilo o icone.
 
-To learn more about Next.js, take a look at the following resources:
+### Link Webapp
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://nunzio-basciano-portfolio.vercel.app/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Licenza
 
-## Deploy on Vercel
+Questo progetto è distribuito sotto la licenza MIT.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contatti
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Email**: [nunzio.basciano1988@gmail.com]
+- **LinkedIn**: [https://www.linkedin.com/in/nunzio-basciano/]
+- **GitHub**: [https://github.com/NunzioBasciano]
+

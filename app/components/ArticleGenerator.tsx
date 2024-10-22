@@ -1,29 +1,6 @@
 import React from "react";
 import classNames from "classnames";
-
-export interface IArticleGeneratorProps {
-  mainTitle?: string;
-  title?: string;
-  subTitle?: string;
-  paragraphs?: IParagraphProps[];
-  buttons?: string[];
-  children?: React.ReactNode;
-  layout?: string;
-  description?: IParagraphProps[];
-  technologies?: ITechnologies[];
-  iconList?: { src: string; alt: string }[];
-}
-
-interface IParagraphProps {
-  text: string;
-  keywords?: { keyword: string; after?: string }[];
-}
-
-interface ITechnologies {
-  id: string;
-  title: string;
-  src: string;
-}
+import { IArticleGeneratorProps } from "../common/interfaces";
 
 function ArticleGenerator(props: IArticleGeneratorProps) {
   const { title, mainTitle, subTitle, paragraphs, children, layout } = props;

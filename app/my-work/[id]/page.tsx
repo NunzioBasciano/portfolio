@@ -14,7 +14,6 @@ function MyWorkDetail({ params }: { params: { id: string } }) {
   const { id } = params;
 
   useEffect(() => {
-    // Trova il progetto corrispondente all'id (convertito a numero)
     const detail = projectList.find((project) => project.id === id);
     console.log(detail);
     if (detail) {
@@ -23,7 +22,6 @@ function MyWorkDetail({ params }: { params: { id: string } }) {
   }, [id]);
 
   if (!project) {
-    // Renderizza un messaggio di caricamento o errore se il progetto non è ancora disponibile
     return <div>Progetto non trovato</div>;
   }
 

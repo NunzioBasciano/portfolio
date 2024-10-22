@@ -8,7 +8,7 @@ export interface IArticleGeneratorProps {
   layout?: string;
   description?: IParagraphProps[];
   technologies?: ITechnologies[];
-  icon?: string[] | undefined;
+  iconList?: { src: string; alt: string }[];
 }
 
 export interface IParagraphProps {

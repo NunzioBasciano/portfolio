@@ -3,11 +3,6 @@ import Link from "next/link";
 import React from "react";
 import { ICarousel } from "../common/interfaces";
 
-const cardList = [
-  { id: "1", title: "Inventory Management", href: "/SicilyPulse.jpg" },
-  { id: "2", title: "Product Management", href: "/inventory-management.png" },
-];
-
 function Carousel(props: ICarousel) {
   const { projects, detailProject } = props;
   return (

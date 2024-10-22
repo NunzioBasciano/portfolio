@@ -17,11 +17,14 @@ function MenuLink(props: IMenuLink) {
     isMenu = false,
     onClick,
   } = props;
+
   return (
     <ul
       className={`gap-4 text-white ${
         isMenu ? "block z-20" : !isFooter ? "hidden md:flex" : "flex"
-      } ${isMenu ? "flex flex-col gap-3 z-50" : ""}`}
+      } ${
+        isMenu ? "flex flex-col gap-8 z-50 text-xl text-[var(--orange)]" : ""
+      }`}
     >
       {menuLink.map((item) => (
         <li key={item.label}>

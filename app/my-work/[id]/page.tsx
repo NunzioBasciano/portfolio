@@ -1,8 +1,7 @@
 "use client";
+import { IArticleGeneratorProps } from "@/app/common/interfaces";
 import { projectList } from "@/app/common/projectList";
-import ArticleGenerator, {
-  IArticleGeneratorProps,
-} from "@/app/components/ArticleGenerator";
+import ArticleGenerator from "@/app/components/ArticleGenerator";
 import Carousel from "@/app/components/Carousel";
 import ImageComponent from "@/app/components/ImageComponent";
 import MainLayout from "@/app/components/MainLayout";

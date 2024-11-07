@@ -1,15 +1,20 @@
-"use client";
-import { IArticleGeneratorProps } from "@/app/common/interfaces";
-import { projectList } from "@/app/common/projectList";
-import ArticleGenerator from "@/app/components/ArticleGenerator";
-import Carousel from "@/app/components/Carousel";
-import ImageComponent from "@/app/components/ImageComponent";
-import MainLayout from "@/app/components/MainLayout";
-import Link from "next/link";
-import React, { useEffect, useState } from "react";
+'use client';
+import {
+  IArticleDetailGeneratorProps,
+  
+} from '@/app/common/interfaces';
+import { projectList } from '@/app/common/projectList';
+import ArticleDetailGenerator from '@/app/components/ArticleDetailGenerator';
+import Carousel from '@/app/components/Carousel';
+import ImageComponent from '@/app/components/ImageComponent';
+import MainLayout from '@/app/components/MainLayout';
+import Link from 'next/link';
+import React, { useEffect, useState } from 'react';
 
 function MyWorkDetail({ params }: { params: { id: string } }) {
-  const [project, setProject] = useState<IArticleGeneratorProps | null>(null);
+  const [project, setProject] = useState<IArticleDetailGeneratorProps | null>(
+    null
+  );
   const { id } = params;
 
   useEffect(() => {
@@ -17,6 +22,7 @@ function MyWorkDetail({ params }: { params: { id: string } }) {
     console.log(detail);
     if (detail) {
       setProject(detail);
+      console.log(detail);
     }
   }, [id]);
 
@@ -26,17 +32,17 @@ function MyWorkDetail({ params }: { params: { id: string } }) {
 
   return (
     <MainLayout>
-      <ArticleGenerator
+      <ArticleDetailGenerator
         title={project.title}
         subTitle={project.subTitle}
-        paragraphs={project.description}
+        description={project.description}
       >
         {project.technologies?.map((item, index) => (
           <Link key={index} href={`/about-me#${item.id}`}>
-            <ImageComponent key={index} src={item.src} alt={item.title} />
+            <ImageComponent src={item.src} alt={item.title} />
           </Link>
         ))}
-      </ArticleGenerator>
+      </ArticleDetailGenerator>
       <Carousel detailProject={project.iconList} />
     </MainLayout>
   );

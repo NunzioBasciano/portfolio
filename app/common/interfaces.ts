@@ -11,6 +11,23 @@ export interface IArticleGeneratorProps {
   iconList?: { src: string; alt: string }[];
 }
 
+export interface IArticleDetailGeneratorProps {
+  mainTitle?: string;
+  title?: string;
+  subTitle?: string;
+  paragraphs?: IParagraphProps[];
+  buttons?: string[];
+  children?: React.ReactNode;
+  layout?: string;
+  description?: string;
+  technologies?: ITechnologies[];
+  iconList?: { src: string; alt: string }[];
+}
+
+export interface IProductDescription {
+  description: string;
+}
+
 export interface IParagraphProps {
   text: string;
   keywords?: { keyword: string; after?: string }[];

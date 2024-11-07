@@ -26,7 +26,7 @@ function ArticleGenerator(props: IArticleGeneratorProps) {
                 <React.Fragment key={i}>
                   <strong>{kw.keyword}</strong>
                   {kw.after}
-                </React.Fragment>
+                </React.Fragment>                  
               ))}
           </p>
         ))}

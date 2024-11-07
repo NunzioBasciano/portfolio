@@ -1,7 +1,7 @@
 'use client';
 import {
   IArticleDetailGeneratorProps,
-  IArticleGeneratorProps,
+  
 } from '@/app/common/interfaces';
 import { projectList } from '@/app/common/projectList';
 import ArticleDetailGenerator from '@/app/components/ArticleDetailGenerator';

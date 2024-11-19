@@ -91,7 +91,7 @@ export const projectList = [
     ],
     technologies: [
       { id: '7', title: 'React', src: '/ReactJS.png' },
-      { id: '5', title: 'CSS', src: '/css.png' },
+      { id: '2', title: 'CSS', src: '/css.png' },
       { id: '15', title: 'Node.js', src: '/node.png' },
     ],
     paragraphs: [
@@ -230,7 +230,7 @@ export const projectList = [
     technologies: [
       { id: '8', title: 'Next.js', src: '/next.png' },
       { id: '6', title: 'TypeScript', src: '/typescript.png' },
-      { id: '12', title: 'Google Gemini', src: '/gemini.png' },
+      { id: '18', title: 'Google Gemini', src: '/gemini.png' },
     ],
     paragraphs: [
       {
@@ -302,7 +302,7 @@ export const projectList = [
     ],
     technologies: [
       { id: '8', title: 'Next.js', src: '/next.png' },
-      { id: '15', title: 'TypeScript', src: '/typescript.png' },
+      { id: '6', title: 'TypeScript', src: '/typescript.png' },
       { id: '19', title: 'Firebase', src: '/firebase.png' },
       { id: '3', title: 'Tailwind CSS', src: '/tailwind.png' },
       { id: '18', title: 'GeminiAI API', src: '/gemini.png' },

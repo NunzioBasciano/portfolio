@@ -4,5 +4,4 @@ export const carouselListHome = [
   { id: "3", title: "Simple Contacts Book", href: "/simple-contacts-book-1.png" },
   { id: "4", title: "Ai Story Teller", href: '/ai-story-teller-1.png' },
   { id: "5", title: "SicilyPulse", href: '/sicilyPulse-1.png' },
-
 ];

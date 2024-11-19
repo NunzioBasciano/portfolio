@@ -303,9 +303,9 @@ export const projectList = [
     technologies: [
       { id: '8', title: 'Next.js', src: '/next.png' },
       { id: '15', title: 'TypeScript', src: '/TypeScript.png' },
-      { id: '16', title: 'Firebase', src: '/Firebase.png' },
+      { id: '19', title: 'Firebase', src: '/firebase.png' },
       { id: '3', title: 'Tailwind CSS', src: '/tailwind.png' },
-      { id: '18', title: 'GeminiAI API', src: '/GeminiAI.png' },
+      { id: '18', title: 'GeminiAI API', src: '/gemini.png' },
       { id: '9', title: 'MongoDB', src: '/mongoDB.png' },
     ],
     paragraphs: [

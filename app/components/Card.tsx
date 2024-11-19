@@ -40,7 +40,7 @@ function Card(props: ICardProps) {
             src={icon}
             alt={title}
             layout="fill"
-            objectFit="cover"
+            objectFit="contain"
             className="mx-auto"
           />
         </div>

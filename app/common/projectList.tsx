@@ -4,11 +4,11 @@ export const projectList = [
     title: 'Inventory Management',
     subTitle:
       'Soluzione scalabile per la gestione degli inventari e delle vendite',
-    icon: '/SicilyPulse.jpg',
+    icon: '/inventory-management-1.png',
     iconList: [
-      { src: '/SicilyPulse.jpg', alt: 'SicilyPulse' },
-      { src: '/SicilyPulse.jpg', alt: 'SicilyPulse' },
-      { src: '/SicilyPulse.jpg', alt: 'SicilyPulse' },
+      { src: '/inventory-management-1.png', alt: '' },
+      { src: '/inventory-management-2.png', alt: 'SicilyPulse' },
+      { src: '/inventory-management-3.png', alt: 'SicilyPulse' },
     ],
     technologies: [
       { id: '8', title: 'Next', src: '/next.png' },
@@ -83,11 +83,11 @@ export const projectList = [
     id: '2',
     title: 'myProduct',
     subTitle: "Gestione completa dei prodotti in un'interfaccia web intuitiva",
-    icon: '/myProductIcon.jpg', // Assicurati di avere un'icona appropriata
+    icon: '/myProduct-3.png', // Assicurati di avere un'icona appropriata
     iconList: [
-      { src: '/myProductIcon.jpg', alt: 'myProduct Icon' },
-      { src: '/myProductFeature1.jpg', alt: 'myProduct Feature 1' },
-      { src: '/myProductFeature2.jpg', alt: 'myProduct Feature 2' },
+      { src: '/myProduct-1.png', alt: 'myProduct Feature Create' },
+      { src: '/myProduct-2.png', alt: 'myProduct Feature 2 Edit' },
+      { src: '/myProduct-3.png', alt: 'myProduct Feature 3 Detail' },
     ],
     technologies: [
       { id: '7', title: 'React', src: '/ReactJS.png' },
@@ -152,14 +152,14 @@ export const projectList = [
   },
   {
     id: '3',
-    title: 'Simple Contacts Book',
+    title: 'Simple-Contacts-Book',
     subTitle:
       "Gestione semplice ed efficiente di una rubrica contatti con un'interfaccia user-friendly",
-    icon: '/simpleContactsIcon.jpg', // Assicurati di avere un'icona appropriata
+    icon: '/simple-contacts-book-3.png', // Assicurati di avere un'icona appropriata
     iconList: [
-      { src: '/simpleContactsIcon.jpg', alt: 'Simple Contacts Icon' },
-      { src: '/addContactFeature.jpg', alt: 'Aggiunta Contatto' },
-      { src: '/editContactFeature.jpg', alt: 'Modifica Contatto' },
+      { src: '/simple-contacts-book-1.png', alt: 'Simple Contacts Icon' },
+      { src: '/simple-contacts-book-2.png', alt: 'Aggiunta Contatto' },
+      { src: '/simple-contacts-book-3.png', alt: 'Modifica Contatto' },
     ],
     technologies: [
       { id: '8', title: 'Next.js', src: '/next.png' },
@@ -195,15 +195,6 @@ export const projectList = [
             keyword: 'visualizzare',
             after: ' contatti in modo rapido ed efficace.',
           },
-          {
-            keyword: ' Next.js',
-            after: ' garantisce un rendering ottimizzato, mentre ',
-          },
-          {
-            keyword: 'TypeScript',
-            after:
-              ' aggiunge sicurezza al codice grazie alla tipizzazione statica.',
-          },
         ],
       },
     ],
@@ -227,11 +218,14 @@ export const projectList = [
     title: 'AI Story Teller',
     subTitle:
       "Generazione di storie personalizzate con l'intelligenza artificiale",
-    icon: '/aiStoryTellerIcon.jpg', // Assicurati di avere un'icona rappresentativa
+    icon: '/ai-story-teller-1.png', // Assicurati di avere un'icona rappresentativa
     iconList: [
-      { src: '/aiStoryTellerIcon.jpg', alt: 'AI Story Teller Icon' },
-      { src: '/storyFeature1.jpg', alt: 'Story Generation Feature' },
-      { src: '/storyFeature2.jpg', alt: 'Comprehension Questions Feature' },
+      { src: '/ai-story-teller-1.png', alt: 'AI Story Teller esempio storia' },
+      {
+        src: '/ai-story-teller-2.png',
+        alt: 'funzionalità domande di comprensione',
+      },
+      { src: '/ai-story-teller-3.png', alt: 'Preferiti' },
     ],
     technologies: [
       { id: '8', title: 'Next.js', src: '/next.png' },
@@ -300,11 +294,11 @@ export const projectList = [
     title: 'SicilyPulse',
     subTitle:
       'La piattaforma che cattura il cuore culturale della Sicilia, offrendo eventi, esperienze e molto altro',
-    icon: '/sicilyPulseIcon.jpg', // Assicurati di avere un'icona appropriata
+    icon: '/sicilyPulse-1.png', // Assicurati di avere un'icona appropriata
     iconList: [
-      { src: '/sicilyPulseIcon.jpg', alt: 'SicilyPulse Logo' },
-      { src: '/homePageSicilyPulse.jpg', alt: 'Home Page SicilyPulse' },
-      { src: '/eventDetails.jpg', alt: 'Pagina Dettaglio Eventi' },
+      { src: '/sicilyPulse-1.png', alt: 'SicilyPulse Home' },
+      { src: '/sicilyPulse-2.png', alt: 'Funzionalità Proponi Evento' },
+      { src: '/sicilyPulse-3.png', alt: 'Dashboard Admin' },
     ],
     technologies: [
       { id: '8', title: 'Next.js', src: '/next.png' },

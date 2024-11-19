@@ -1,7 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
-import { ICarousel } from "../common/interfaces";
+import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
+import { ICarousel } from '../common/interfaces';
 
 function Carousel(props: ICarousel) {
   const { projects, detailProject } = props;
@@ -19,7 +19,7 @@ function Carousel(props: ICarousel) {
                   src={item.href}
                   alt={item.title}
                   layout="fill"
-                  objectFit="cover"
+                  objectFit="contain"
                   className="rounded-xl bg-[var(--darkBlue)]"
                 />
               </Link>
@@ -40,7 +40,7 @@ function Carousel(props: ICarousel) {
                 src={item.src}
                 alt={item.alt}
                 layout="fill"
-                objectFit="cover"
+                objectFit="contain"
                 className="rounded-xl bg-[var(--darkBlue)]"
               />
             </div>

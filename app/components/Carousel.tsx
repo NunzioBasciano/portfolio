@@ -24,9 +24,6 @@ function Carousel(props: ICarousel) {
                 />
               </Link>
             </div>
-            <h3 className="absolute top-[85%] text-[var(--darkBlue)] font-bold text-xl mt-2">
-              {item.title}
-            </h3>
           </div>
         ))}
       {detailProject &&

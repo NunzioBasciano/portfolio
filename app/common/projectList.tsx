@@ -163,8 +163,8 @@ export const projectList = [
     ],
     technologies: [
       { id: '8', title: 'Next.js', src: '/next.png' },
-      { id: '6', title: 'TypeScript', src: '/TypeScript.png' },
-      { id: '9', title: 'MongoDB', src: '/MongoDB.png' },
+      { id: '6', title: 'TypeScript', src: '/typescript.png' },
+      { id: '9', title: 'MongoDB', src: '/mongoDB.png' },
       { id: '3', title: 'Tailwind CSS', src: '/tailwind.png' },
     ],
     paragraphs: [
@@ -302,7 +302,7 @@ export const projectList = [
     ],
     technologies: [
       { id: '8', title: 'Next.js', src: '/next.png' },
-      { id: '15', title: 'TypeScript', src: '/TypeScript.png' },
+      { id: '15', title: 'TypeScript', src: '/typescript.png' },
       { id: '19', title: 'Firebase', src: '/firebase.png' },
       { id: '3', title: 'Tailwind CSS', src: '/tailwind.png' },
       { id: '18', title: 'GeminiAI API', src: '/gemini.png' },

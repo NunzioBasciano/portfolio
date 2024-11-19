@@ -1,6 +1,6 @@
-import React from "react";
-import { projectList } from "../common/projectList";
-import Card from "../components/Card";
+import React from 'react';
+import { projectList } from '../common/projectList';
+import Card from '../components/Card';
 
 function MYWork() {
   return (
